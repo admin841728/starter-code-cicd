@@ -1,0 +1,9 @@
+name: greet the hello
+on: push
+job:
+  test:
+   runs-on: ubuntu-latest
+   steps:
+    run: echo $hello
+
+
