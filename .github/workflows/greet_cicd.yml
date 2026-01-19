@@ -9,4 +9,9 @@ jobs:
     steps:
       - name: Say hello
         run: echo "hello"
+   build:
+     runs-on: ubuntu-latest
+     steps:
+      - name: talk to neaghbours
+        run: echo "i talk to him"
 
