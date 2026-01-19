@@ -1,9 +1,12 @@
-name: greet the hello
-on: push
-job:
-  test:
-   runs-on: ubuntu-latest
-   steps:
-    run: echo $hello
+name: Greet Hello
 
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "hello"
 
